@@ -59,7 +59,7 @@ class Autor {
       const resultado = await this.atualizar(this.id);
       return resultado;
     }
-    const resultado = await this.criar()
+    const resultado = await this.criar();
     return resultado;
   }
 
