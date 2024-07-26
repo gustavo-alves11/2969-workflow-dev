@@ -1,5 +1,7 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable camelcase */
+
 import db from '../db/dbconfig.js';
 
 class Autor {
@@ -61,10 +63,10 @@ class Autor {
     return resultado;
   }
 
-  static async pegaLivrosPorAutor(autorId) {
-    return db('livros')
-      .where({ autor_id: autorId });
-  }
+  // static async pegaLivrosPorAutor(autorId) {
+  //   return db('livros')
+  //     .where({ autor_id: autorId });
+  // }
 }
 
 export default Autor;
