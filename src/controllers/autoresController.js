@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable linebreak-style */
 import Autor from '../models/autor.js';
 
 class AutoresController {
